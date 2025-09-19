@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
     <nav>
- 
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Skills</a></li>
-            <li><a>Contact</a></li>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#Work" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
+
     <header>
         <div class="header-container">
             <div class="holder-image-profile">
@@ -32,6 +38,7 @@
             </div>
         </div>
     </header>
+
     <section id="skills">
         <h2 class="title-skills">Skills</h2>
         <p class="text-skills">Berikut adalah beberapa keterampilan teknis yang saya kuasai:</p>
@@ -52,7 +59,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" class="skill-icon" />
                 </div>
                 <div class="skill-text-item">
-                <h3>CSS</h3>
+                    <h3>CSS</h3>
                     <div class="bar-skill">
                         <div class="progress"></div>
                     </div>
@@ -63,14 +70,15 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Icon" class="skill-icon"/>
                 </div>
                 <div class="skill-text-item">
-                <h3>JavaScript</h3>
-                <div class="bar-skill">
+                    <h3>JavaScript</h3>
+                    <div class="bar-skill">
                         <div class="progress"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="Work">
         <h2 class="title-work">Work Experience</h2>
         <div class="work-container">
@@ -95,6 +103,8 @@
     <footer>
         <p>&copy; 2024 Yafa Nanda Putra. All rights reserved.</p>
     </footer>
-    
+
+    <script src="script.js"></script>
+
 </body>
 </html>
